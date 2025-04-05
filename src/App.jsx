@@ -26,6 +26,11 @@ import Layout from "./components/Layout.jsx";
 import HostLayout from "./components/HostLayout.jsx";
 import HostVans from "./pages/host/HostVans.jsx";
 import HostVansDetail from "./pages/host/HostVansDetail.jsx";
+import HostVanInfo from "./pages/host/HostVanInfo.jsx";
+import HostVanPhotos from "./pages/host/HostVanPhotos.jsx";
+import HostVanPricing from "./pages/host/HostVanPricing.jsx";
+import NotFound from "./pages/NotFound.jsx";
+import Login from "./pages/Login.jsx";
 import "./server";
 
 export default function App() {
@@ -37,14 +42,20 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="vans" element={<Vans />} />
           <Route path="vans/:id" element={<VanDetail />} />
+          <Route path="login" element={<Login />} />
 
           <Route path="host" element={<HostLayout />}>
             <Route index element={<Dashboard />} />
             <Route path="vans" element={<HostVans />} />
-            <Route path="vans/:id" element={<HostVansDetail />} />
             <Route path="income" element={<Income />} />
             <Route path="reviews" element={<Reviews />} />
+            <Route path="vans/:id" element={<HostVansDetail />}>
+              <Route index element={<HostVanInfo />} />
+              <Route path="pricing" element={<HostVanPricing />} />
+              <Route path="photo" element={<HostVanPhotos />} />
+            </Route>
           </Route>
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
