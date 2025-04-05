@@ -29,6 +29,7 @@ export default function App() {
             #VANLIFE
           </Link>
           <Link to="/about">About</Link>
+          <Link to="/vans">Vans</Link>
         </nav>
       </header>
       <Routes>
