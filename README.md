@@ -1,8 +1,8 @@
-# DJS08 Project Brief: React Router 
+# DJS08 Project Brief: React Router
 
-🎥 INSERT LOOM PRESENTATION LINK: [Here]
+🎥 INSERT LOOM PRESENTATION LINK: [(https://www.loom.com/share/d65abb8d6f764245af38fa0e31d40ce9?sid=5697b17a-e8bc-4afb-a5ba-19891d47c3dc)]
 
-After cloning the repo, run `npm install` to install the dependencies 
+After cloning the repo, run `npm install` to install the dependencies
 
 Are you ready to get stuck into some React Router? For this challenge, you are required to code along with the lecturer from this lesson on Scrimba V1 [VanLife Project Bootstrapping](https://v1.scrimba.com/learn/react/introduction-to-react-router-6-coafa4877a450245212825034) or on Scrimba V2 click the link here [VanLife Project Bootstrapping](https://v2.scrimba.com/advanced-react-c02h/~02d)
 
@@ -17,6 +17,7 @@ For your recorded presentation, you will be discussing key concepts related to R
 ### Question 1: Explain the Setup and Basic Configuration of React Router
 
 **Key Points to Cover:**
+
 - What is the purpose of using React Router in a React application?
 - How do you set up React Router using `BrowserRouter` as shown in the lessons?
 - Describe the role of the `<Routes>` and `<Route>` components in defining the navigation structure.
@@ -24,6 +25,7 @@ For your recorded presentation, you will be discussing key concepts related to R
 ### Question 2: Application of Route Parameters and Nested Routes
 
 **Key Points to Cover:**
+
 - Explain what route parameters are and how they are used in React Router, including the use of `useParams()` to access these parameters.
 - Discuss the concept of nested routes as introduced in the lessons. What are nested routes, and how do they benefit the structure of a React application?
 - Provide an example, such as the configuration for nested routes in the VanLife project.
@@ -31,6 +33,7 @@ For your recorded presentation, you will be discussing key concepts related to R
 ### Question 3: Implementation of Navigation Controls and Dynamic Linking
 
 **Key Points to Cover:**
+
 - How does the `<Link>` component enhance navigation within a React application?
 - Describe the use of `NavLink` for active styling. What makes `NavLink` different from the basic `Link` component?
 - Discuss the use of search parameters and the `useSearchParams` hook to dynamically filter content, as seen in the VanLife project challenges.
